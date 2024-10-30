@@ -70,6 +70,10 @@ Eza has `--git` options displaying git status of each file in a dedicated column
 
 When inside a git repo, the `--git` option will be automatically added to every alias beginning with `ll` (as `--git` only works with `--long`) (`lla, llaa, llid` etc).
 
+### Fallback on ls when eza not available
+
+`l`, `ll`, `la`, `lla` these widely used aliases will fallback on `ls` when `eza` not available ([#1](https://github.com/imroc/eza.fish/issues/1)).
+
 ## 📝 License
 
 [MIT](LICENSE)
